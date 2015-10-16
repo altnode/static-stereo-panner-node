@@ -1,8 +1,8 @@
-import AudioNode from "altnode.audio-node";
+import AltAudioNode from "altnode.alt-audio-node";
 import StaticParam from "./StaticParam";
 import { PAN, SPLITTER, GAIN_L, GAIN_R, MERGER } from "./symbols";
 
-export default class StaticStereoPannerNode extends AudioNode {
+export default class StaticStereoPannerNode extends AltAudioNode {
   constructor(audioContext) {
     super(audioContext);
 

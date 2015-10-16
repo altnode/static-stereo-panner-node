@@ -3,6 +3,8 @@
 [![NPM Version](http://img.shields.io/npm/v/altnode.static-stereo-panner-node.svg?style=flat-square)](https://www.npmjs.org/package/altnode.static-stereo-panner-node)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://mohayonao.mit-license.org/)
 
+![graph](https://github.com/altnode/static-stereo-panner-node/wiki/images/static-stereo-panner-node.png)
+
 ## Installation
 
 ```
@@ -10,7 +12,7 @@ npm install -S altnode.static-stereo-panner-node
 ```
 
 ## API
-### AudioNode
+### StaticStereoPannerNode
 - `constructor(audioContext: AudioContext)`
 
 #### Instance attributes
