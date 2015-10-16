@@ -1,0 +1,30 @@
+{
+  "name": "altnode.static-stereo-panner-node",
+  "description": "altnode.StaticStereoPannerNode",
+  "version": "0.1.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/altnode/static-stereo-panner-node/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "index.js",
+    "lib"
+  ],
+  "homepage": "https://github.com/altnode/static-stereo-panner-node",
+  "keywords": [
+    "Web Audio API"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altnode/static-stereo-panner-node.git"
+  },
+  "scripts": {}
+}
