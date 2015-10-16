@@ -23,16 +23,16 @@ import StaticStereoPannerNode from "altnode.static-stereo-panner-node";
 
 let audioContext = new AudioContext();
 let bufSrc = audioContext.createBufferSource();
-let pan = new StaticStereoPannerNode(audioContext);
+let panner = new StaticStereoPannerNode(audioContext);
 
 bufSrc.buffer = RhythmLoop;
 bufSrc.loop = true;
 bufSrc.start();
-bufSrc.connect(eq);
+bufSrc.connect(panner);
 
-pan.pan.value = 0.25;
+panner.pan.value = 0.25;
 
-pan.connect(audioContext.destination);
+panner.connect(audioContext.destination);
 ```
 
 ## LICENSE
