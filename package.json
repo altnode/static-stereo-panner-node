@@ -1,7 +1,7 @@
 {
   "name": "altnode.static-stereo-panner-node",
   "description": "altnode.StaticStereoPannerNode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Nao Yonamine <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/altnode/static-stereo-panner-node/issues"
